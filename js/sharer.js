@@ -48,12 +48,17 @@ function lit(tabUrl) {
     stumbleupon.href = "http://www.stumbleupon.com/submit?url=" + tabUrl;
     stumbleupon.id = "uv-stumbleupon";
 
+  	let pinterest = {}
+    pinterest.href = "http://pinterest.com/pin/create/button/?url=" + tabUrl;
+    pinterest.id = "uv-pinterest";
+
     let facebookButton = urlAssigner(facebook);
     let googleplusButton = urlAssigner(googlePlus);
     let twitterButton = urlAssigner(twitter);
     let redditButton = urlAssigner(reddit);
     let linkedinButton = urlAssigner(linkedin); 
-    let stumbleuponButton = urlAssigner(stumbleupon);   
+    let stumbleuponButton = urlAssigner(stumbleupon); 
+  	let pinterestButton = urlAssigner(pinterest);
 }
 
   (function getCurrentTabUrl() {

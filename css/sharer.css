@@ -42,11 +42,16 @@
     background-color: #f14829;
 }
 
+#uv-pinterest {
+	background-color: #db3037;
+}
+
 #uv-facebook:hover,
 #uv-twitter:hover,
 #uv-google-plus:hover,
 #uv-reddit:hover,
 #uv-linkedin:hover,
-#uv-stumbleupon:hover {
+#uv-stumbleupon:hover,
+#uv-pinterest:hover {
     background-color: green;
 }
